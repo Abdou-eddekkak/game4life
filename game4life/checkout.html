@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Checkout - Video Games Store</title>
+  <link rel="stylesheet" href="checkout.css">
+  <script src="checkout.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Checkout</h1>
+  </header>
+
+  <nav class="navbar">
+    <ul>
+      <li><a href="sample1.html">Home</a></li>
+      <li><a href="checkout.html">Cart</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+  
+  <main>
+    <div class="checkout-summary">
+      <h2>Order Summary</h2>
+      <ul id="cart-items"></ul>
+      <p>Total: <span id="total-price"></span></p>
+    </div>
+
+    <form id="checkout-form">
+      <h2>Shipping Details</h2>
+      <label for="name">Name:</label>
+      <input type="text" id="name" required><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" required><br>
+
+      <label for="address">Address:</label>
+      <textarea id="address" required></textarea><br>
+
+      <button type="submit">Place Order</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Video Games Store. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

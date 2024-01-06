@@ -1,0 +1,92 @@
+/* Reset default margin and padding */
+body,ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('IMAGES/360_F_442375349_Z2mv3ZZNkKgsDgY1FOCdHeo8KXDop3iy.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* Style the navigation bar */
+.navbar {
+  background-color: #333;
+  text-align: center;
+  font-size: x-large;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  display: inline;
+}
+
+.navbar ul li a {
+  display: inline-block;
+  padding: 10px 15px;
+  color: #53FA00;
+  text-decoration: none;
+}
+
+.navbar ul li a:hover {
+  background-color: #555;
+}
+
+/* Style the main content in the about page */
+.main-content {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+.main-content h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.main-content h2 {
+  font-size: 24px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.main-content p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+div {
+  text-align: center;
+  font-size: x-large;
+  border-radius: 50px;
+  padding: 50px;
+  margin-top: 50px;
+}
+
+.about-us {
+  background-color: #53FA00;
+  color: #000;
+}
+
+.our-vision {
+  background-color: #000;
+  color: #53FA00;
+}
+
+.Contact-us {
+  background-color: #53FA00;
+
+}
+footer {
+    background-color: #333;
+    margin-top: 330px;
+    padding: 1px;
+    text-align: center;
+    color: #53FA00;
+}

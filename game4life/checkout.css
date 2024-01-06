@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('IMAGES/360_F_442375349_Z2mv3ZZNkKgsDgY1FOCdHeo8KXDop3iy.jpg'); /* Replace 'background.jpg' with your image file */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  header {
+    background-color: #333;
+    color: #53FA00;
+    text-align: center;
+    padding: 20px;
+  }
+  /* Reset default margin and padding */
+  body, ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Style the navigation bar */
+  .navbar {
+    background-color: #333;
+    text-align: center;
+  }
+
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar ul li {
+    display: inline-block;
+  }
+
+  .navbar ul li a {
+    display: block;
+    padding: 10px 15px;
+    color: #53FA00;
+    text-decoration: none;
+  }
+
+  .navbar ul li a:hover {
+    background-color: #555;
+  }
+
+  main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .checkout-summary {
+    flex: 0 0 45%; /* Set the width for order summary */
+    background-color: #333;
+    color: #53FA00;
+    padding: 13px;
+    border-radius: 50px;
+    text-align: center;
+  }
+  
+  #cart-items {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #cart-items li {
+    margin-bottom: 10px;
+  }
+  
+  form {
+    flex: 0 0 50%; /* Set the width for shipping details form */
+    background-color: #53FA00;
+    padding: 13px;
+    border-radius: 50px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  form button {
+    background-color: #333;
+    color: #53FA00;
+    border-radius: 50px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #555;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #53FA00;
+    text-align: center;
+    padding: 91px;
+    margin: auto;
+  }
