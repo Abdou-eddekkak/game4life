@@ -1,0 +1,131 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #090909c1;
+  
+}
+
+header, main, footer {
+  padding: 20px;
+}
+
+header, .navbar {
+  color: #53FA00;
+  text-align: center;
+  background-image: url('IMAGES/360_F_442375349_Z2mv3ZZNkKgsDgY1FOCdHeo8KXDop3iy.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* Reset default margin and padding */
+body, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the navigation bar */
+.navbar {
+  background-color: #333;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  display: inline-block;
+}
+
+.navbar ul li a {
+  display: block;
+  padding: 10px 15px;
+  color: #53FA00;
+  text-decoration: none;
+}
+
+.navbar ul li a:hover {
+  background-color: #333;
+}
+
+
+button {
+  background-color: #333;
+  color: #53FA00;
+  border: none;
+  padding: 8px 15px;
+}
+
+button:hover {
+  background-color: #53FA00;
+  color: #333;
+}
+
+.cart-count {
+  color: #53FA00;
+}
+  
+  h1 {
+    margin: 0;
+    text-size-adjust: x-large;
+  }
+
+  h2 {
+    text-align: center;
+    color: black;
+  }
+
+  p {
+    color: white;
+  }
+  
+  .games-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .game {
+    width: 300px;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #53FA00;
+    border-radius: 5px;
+    text-align: center;
+    position: relative; 
+  }
+  
+  .game img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .buy-button {
+    background-color: #333;
+    color: #53FA00;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    position: absolute; 
+    bottom: 2px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+  }
+  
+  .buy-button:hover {
+    background-color: #53FA00;
+    color: #333;
+  }
+    footer {
+        text-align: center;
+        color: #fff;
+        background-image: url('IMAGES/360_F_442375349_Z2mv3ZZNkKgsDgY1FOCdHeo8KXDop3iy.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }  
