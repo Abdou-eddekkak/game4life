@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function() {
       // If the purchase is successful
       alert('Order placed successfully!');
       localStorage.removeItem('cart'); // Clear cart after placing order
-      window.location.href = 'sample1.html'; // Redirect to the home page after order placement
+      window.location.href = 'index.html'; // Redirect to the home page after order placement
     } else {
       // If the purchase fails
       alert('Failed to process the purchase. Please try again later.');
