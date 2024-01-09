@@ -13,6 +13,7 @@ header, main, footer {
 
 header, .navbar {
   color: #53FA00;
+  font-size: x-large;
   text-align: center;
   background-image: url('IMAGES/360_F_442375349_Z2mv3ZZNkKgsDgY1FOCdHeo8KXDop3iy.jpg');
   background-repeat: no-repeat;
@@ -71,12 +72,10 @@ button:hover {
   
   h1 {
     margin: 0;
-    font-size: x-large;
   }
 
   h2 {
     text-align: center;
-    color: #53FA00;
   }
 
   p {
