@@ -71,11 +71,12 @@ button:hover {
   
   h1 {
     margin: 0;
+    font-size: x-large;
   }
 
   h2 {
     text-align: center;
-    color: white;
+    color: #53FA00;
   }
 
   p {
