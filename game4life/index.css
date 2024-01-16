@@ -3,7 +3,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #090909c1;
+  background-color: transparent;
   
 }
 
@@ -77,6 +77,10 @@ button:hover {
   h2 {
     text-align: center;
     color: black;
+  }
+  header, h2 {
+    color: white;
+    font: bold;
   }
 
   p {
